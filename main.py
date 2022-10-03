@@ -1,8 +1,6 @@
 import os
 from tkinter import *
 from tkinter import filedialog, messagebox
-
-from requests import JSONDecodeError
 from automatas import alumnos, docentes, vehiculos
 # from automatas import alumnos
 import json
