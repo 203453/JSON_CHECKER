@@ -2,16 +2,16 @@
 	"vehic":[
 
 		{
-			"tr": "Emilio Torres",
-			"mod": "Chevrolet Aveo",
-			"placa": "ADS-23-04",
-			"clr": ""
+			"tr": "[a..z]^n",
+			"mod": "[a..z,0..9]^n",
+			"placa": "[a..z,0..9,.,@,-]^n",
+			"clr": "[a..z]^n/null"
 		},
 		{
-			"tr": "Azul Briones",
-			"mod": "Ford Mustang",
-			"placa": "ADS-27-05",
-			"clr": "Blanco"
+			"tr": "[a..z]^n",
+			"mod": "[a..z,0..9]^n",
+			"placa": "[a..z,0..9,.,@,-]^n",
+			"clr": "[a..z]^n/null"
 		}
 	]
 }
