@@ -1,0 +1,23 @@
+{
+	"vehic":[
+
+		{
+			"tr": "Emilio Torres",
+			"mod": "Chevrolet Aveo",
+			"placa": "ADS-23-04",
+			"clr": ""
+		},
+		{
+			"tr": "Azul Briones",
+			"mod": "Ford Mustang",
+			"placa": "ADS-27-05",
+			"clr": "Blanco"
+		},
+    {
+			"tr": "Azul Briones",
+			"mod": "Ford Mustang",
+			"placa": "ADS-27-05",
+			"clr": "Blanco"
+		}
+	]
+}
