@@ -42,13 +42,15 @@ def openJson():
         f = open(str(ruta))
     except FileNotFoundError:
         messagebox.showinfo(message="Archivo no cargado", title="Error")
-        root.destroy()
+        dirLabel.destroy()
+        valBtn.destroy()
     else:
         try:
             x = json.load(f)
         except ValueError:
             messagebox.showinfo(message="El JSON es invalido", title="Error")
-            root.destroy()
+            dirLabel.destroy()
+            valBtn.destroy()
         else:
             x = json.dumps(x)
             x = str(x)
